@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".OrderSummary">
+
+    <TextView
+        android:id="@+id/orderSummaryMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="25sp"
+        android:text="Order Summary"
+        />
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_gravity="center"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/coffee_cup"
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/backToOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Order"/>
+
+</LinearLayout>
